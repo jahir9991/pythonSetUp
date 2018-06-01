@@ -26,3 +26,14 @@ export PROJECT_HOME=$HOME/Devel
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source ~/.local/bin/virtualenvwrapper.sh
+
+
+
+.......................................
+install postgres
+...........................................
+$ sudo apt update
+$ sudo apt install postgresql postgresql-contrib
+
+$ sudo -i -u postgres
+$ psql
